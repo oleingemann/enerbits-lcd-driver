@@ -1,8 +1,10 @@
 # LCD1in8
 
-waveshare electronics
+MakeCode extension for Waveshare 1.8inch LCD module.
 
-![Waveshare_logo.png](Waveshare_logo.png)
+## Usage
+
+This extension allows you to control a Waveshare 1.8inch LCD module from your micro:bit.
 
 ## License
 
@@ -11,5 +13,4 @@ MIT
 ## Supported targets
 
 * for PXT/microbit
-(The metadata above is needed for package search.)
 

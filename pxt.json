@@ -1,12 +1,11 @@
 {
     "name": "LCD1in8",
-    "version": "2.2.6",
-    "description": "waveshare electronics v2.2.6",
+    "version": "1.0.0",
+    "description": "MakeCode extension for Waveshare 1.8inch LCD module",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "radio": "*"
     },
     "files": [
         "README.md",
@@ -16,5 +15,12 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "public": true,
+    "targetVersions": {
+        "target": "6.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ]
 }
