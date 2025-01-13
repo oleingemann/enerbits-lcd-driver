@@ -1,7 +1,7 @@
 {
-    "name": "lcd1in8",
+    "name": "LCD1in8",
     "version": "2.2.6",
-    "description": "MakeCode extension for Waveshare 1.8 inch LCD display module",
+    "description": "waveshare electronics v2.2.6",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -16,31 +16,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "targetVersions": {
-        "target": "6.0.17",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj",
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "bluetooth": {
-                    "enabled": 0
-                }
-            }
-        }
-    },
-    "public": true,
-    "authors": [
-        "Waveshare"
-    ],
-    "card": {
-        "name": "LCD1.8",
-        "imageUrl": "./static/libs/lcd1in8.png",
-        "description": "A library to control Waveshare 1.8 inch LCD display",
-        "cardType": "package"
-    }
+    "public": false
 }

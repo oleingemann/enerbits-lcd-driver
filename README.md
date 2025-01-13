@@ -1,4 +1,3 @@
-
 # LCD1in8
 
 waveshare electronics
