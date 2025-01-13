@@ -1,0 +1,20 @@
+{
+    "name": "LCD1in8",
+    "version": "2.2.6",
+    "description": "waveshare electronics v2.2.6",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/ja/LCD1in8-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": false
+}
