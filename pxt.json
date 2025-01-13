@@ -1,5 +1,5 @@
 {
-    "name": "LCD1in8",
+    "name": "lcd1in8",
     "version": "2.2.6",
     "description": "waveshare electronics v2.2.6",
     "license": "MIT",
@@ -16,5 +16,13 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false
+    "targetVersions": {
+        "target": "6.0.17",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "public": true
 }
